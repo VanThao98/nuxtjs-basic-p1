@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-gray-50;
+body {
+  @apply bg-gray-50;
 }
 
 @layer components {
-    .btn{
-        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm;
-    }
+  .btn {
+    @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm;
+  }
 
-    .card {
-        @apply p-3 rounded-md bg-white shadow-sm h-full;
-    }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-sm h-full;
+  }
 }
